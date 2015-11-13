@@ -1,0 +1,7 @@
+lib/*
+**/dist/*
+**/node_modules/*
+**/server.js
+**/test/*
+**/webpack.config.js
+**/webpack.prod.config.js
