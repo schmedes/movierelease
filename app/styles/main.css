@@ -11,6 +11,7 @@ html,body {
   height: inherit;
 }
 *{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -65,7 +66,7 @@ img {
   background-image: linear-gradient(to right, #D6A41F, #F2F08C, #D6A41F);
 }
 
-.metascore {
+.fresh, .rotten {
   margin-top: 0.75em;
   margin-left: 25px;
   height: 2em;
@@ -126,4 +127,12 @@ img {
     margin-top: 1%;
     flex-direction: column;
   }
+}
+.warning {
+  width: 100%;
+  padding: 10px 0;
+  background: red;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
 }
